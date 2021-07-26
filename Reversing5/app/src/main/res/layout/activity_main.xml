@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="AutoCompleteTextView Sample"
+            android:background="@color/black"/>
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:textColorHint="#555555"
+            android:completionHint="검색어를 입력하세요."
+            android:completionThreshold="1" />
+
+        <Button
+            android:id="@+id/newActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera" />
+        <Button
+            android:id="@+id/newActivity2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AppBar" />
+
+
+</LinearLayout>
